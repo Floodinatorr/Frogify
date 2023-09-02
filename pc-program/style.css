@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --white: #f8f9fa;
+    --white-hover: #e9ecef;
+    --white-focus: #e2e6ea;
+    --white-active: #dae0e5;
+    --white-shadow: 0 2px 4px 0 rgba(255, 255, 255, .9);
+
+    --black: #212529;
+    --black-hover: #1b1e21;
+    --black-focus: #16181b;
+    --black-active: #121416; 
+    --black-shadow: 0 2px 4px 0 rgba(0, 0, 0, .9);
+    --black-disabled: #6c757d;;
+
+    --blue: #007bff;
+    --blue-hover: #0069d9;
+    --blue-focus: #0062cc;
+    --blue-active: #005cbf;
+    --blue-shadow: 0 2px 4px 0 rgba(0, 123, 255, .9);
+    --blue-disabled: #bfe1ff;
+
+    --green: #28a745;
+    --green-hover: #218838;
+    --green-focus: #1e7e34;
+    --green-active: #1c7430;
+    --green-shadow: 0 2px 4px 0 rgba(40, 167, 69, .9);
+    --green-disabled: #b6e9c6;
+}
+
+body{
+    background: var(--white);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body{
+        background: var(--black);
+    }
+}

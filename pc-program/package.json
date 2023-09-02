@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "electron": "*"
+  },
+  "name": "pc-program",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-nmap": "*"
+  }
+}
