@@ -24,6 +24,7 @@ vendor/
 # Ignore sensitive information
 config.ini
 secrets.txt
+.env
 
 # Ignore operating system files
 .DS_Store
