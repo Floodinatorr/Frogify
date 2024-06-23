@@ -1,9 +1,5 @@
 {
-    "intents" : [
-        {
-            "tag" : "greeting",
-            "patterns" : ["Hey", "Bak"],
-            "responses" : ["Buyur"]
-        }
-    ]
+    "language": "tr-TR",
+    "name": "Frogify",
+    "wake_words": ["hey frogify"]
 }
