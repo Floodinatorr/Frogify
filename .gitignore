@@ -17,6 +17,7 @@ dist/
 node_modules/
 vendor/
 test.py
+ollama-groq.py
 
 # Ignore logs and temporary files
 *.log
